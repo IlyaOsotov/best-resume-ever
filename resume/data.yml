@@ -3,7 +3,7 @@ name:
   first: Илья
   middle:
   last: Осотов
-about: Опыт работы в разработке веб-API с помощью WebAPI ASP.NET до full stack RoR разработки
+about: Опыт работы в разработке веб-API с помощью WebAPI ASP.NET и Ruby on Rails
 position: Ruby разработчик
 
 birth:
@@ -19,8 +19,8 @@ experience:
     Перенёс сервера с Apache + Passenger + кастомный скрипт деплоя на nginx + puma + capistrano стек.
     Оптимизировал работу админ панели.
     Добавил функционал фоновых задач с помощью clockwork.
-    Добавил функционал веб пушей для уведомление администратора с помощью webpush + serviceworker-rails.
-    Переписал создания заказа с помощью dry-transaction.
+    Добавил функционал веб пушей для уведомления администратора с помощью webpush + serviceworker-rails.
+    Переписал создание заказа с помощью dry-transaction.
     Разработал монитор-сервис на vue.js для лайв мониторинга текущих проектов.
     Разработал небольшой сервис на Python для отправки сообщений в telegram.
   website: https://compasslabs.ru
@@ -43,7 +43,7 @@ experience:
   position: .NET Developer
   timeperiod: Октябрь 2016 - Апрель 2017
   description: 
-    Реализовал алгоритм кластеризации по геопозиции, что позволило объединить в сервисе предложения от разных провайдеров и найти самый дешевый из них.
+    Реализовал алгоритм сопоставления по геопозиции, что позволило объединить в сервисе предложения от разных провайдеров и найти самый дешевый из них.
     Автоматизировал работу бухгалтерии, добавив генерацию отчетности в формате PDF.
   website: https://smartway.today
 
@@ -98,6 +98,8 @@ skills:
 
 contact:
   email: soten58@yandex.ru
+  city: Пенза
+  street: Пенза
   phone: +79272888377
   website: https://www.linkedin.com/in/ilya-osotov/
   github: IlyaOsotov
