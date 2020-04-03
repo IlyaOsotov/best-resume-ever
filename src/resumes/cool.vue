@@ -112,7 +112,14 @@
               </span>
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">{{ experience.description }}</span>
+              <div
+                v-if="Array.isArray(experience.description)"
+                class="section-content__text--light">
+                <span style="display: block;"
+                  v-for="(el, index) in experience.description"
+                  :key="index">{{ el }}</span>
+              </div>
+              <span v-else class="section-content__text--light">{{ experience.description }}</span>
             </a>
           </div>
         </div>
@@ -179,7 +186,7 @@
       </div>
     </div>
 
-    <img class="picture"/>
+    <!--<img class="picture"/>-->
   </div>
 </template>
 
@@ -195,7 +202,7 @@ export default Vue.component(name, getVueOptions(name));
 <style lang="less" scoped>
 @accent-color: #34495E;
 @banner-color: #42b883;
-@banner-height: 120px;
+@banner-height: 80px;
 @picture-size: 120px;
 @picture-offset: 35px;
 @base-padding: 30px;

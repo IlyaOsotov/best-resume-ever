@@ -1,56 +1,62 @@
 /* #*/ export const PERSON = `
 name:
-  first: Илья
+  first: Ilya
   middle:
-  last: Осотов
-about: Опыт работы в разработке веб-API с помощью WebAPI ASP.NET и Ruby on Rails
-position: Ruby разработчик
+  last: Osotov
+about: I am a web developer with 3+ years of experience in Ruby, Rails, Golang, JavaScript.
+position: Ruby developer
 
 birth:
   year: 1996
-  location: Пенза
+  location: Penza
 
 experience:
+- company: Cashwagon, Moscow
+  position: Ruby developer
+  timeperiod: June 2019 - March 2020
+  description:
+    - Developed payments gateway and integrations with Asian banks and payments systems
+    - Developed microservices for payments
+    - Developed microservices using Golang, Grape, Ruby, Mongo, PostgreSQL
+    - Developed various APIs
+    - Integration with CRM
+    - Integration with P2P investment systems
+    - Integration and transfer RabbitMQ to Kafka
+    - Using Amazon S3 Buckets for storing static files
+    - Support RabbitMQ and Kafka
+    - Support legacy applications
+    - Raised the test coverage from 60 to 85%
+  website: https://cashwagon.com
+
 - company: Compasslabs, Penza
   position: Ruby on Rails Developer
-  timeperiod: C мая 2018
+  timeperiod: May 2018 - May 2019
   description: 
-    Разработка и поддержка приложения для мобильных ресторанов, рефакторинг и оптимизация backend'a.
-    Перенёс сервера с Apache + Passenger + кастомный скрипт деплоя на nginx + puma + capistrano стек.
-    Оптимизировал работу админ панели.
-    Добавил функционал фоновых задач с помощью clockwork.
-    Добавил функционал веб пушей для уведомления администратора с помощью webpush + serviceworker-rails.
-    Переписал создание заказа с помощью dry-transaction.
-    Разработал монитор-сервис на vue.js для лайв мониторинга текущих проектов.
-    Разработал небольшой сервис на Python для отправки сообщений в telegram.
+    Developed monitor server which monitors current projects online, redesigned and refactored backend architecture, optimized server responses.
   website: https://compasslabs.ru
 
 - company: RailsJedies, Penza
   position: Ruby on Rails Developer
-  timeperiod: Август 2017 - Май 2018
+  timeperiod: August 2017 - May 2018
   description:
-    Добавил логику субдоменов на moslest.ru с помощью geoip.
-    Оптимизировал работу moslest.ru с помощью PageSpeed Insights от Google.
-    Настроил SEO на moslest.ru.
-    Переписал frontend часть в проекте на VueJS.
+    Increased productivity of the project by 40% by removing JQuery and adding VueJS, enabled the customer to work across the country by adding subdomain logic to moslest.ru, increased the usability of moslest.ru by optimizing server responses.
 
 - company: Open Solutions, Penza
   position: .NET Developer
-  timeperiod: Апрель 2017 - Июль 2017
-  description: Разработал декстопное приложение.
+  timeperiod: April 2017 - July 2017
+  description: Analyzed, designed and developed a desktop application.
 
 - company: Smartway.today, Penza
   position: .NET Developer
-  timeperiod: Октябрь 2016 - Апрель 2017
+  timeperiod: October 2016 - April 2017
   description: 
-    Реализовал алгоритм сопоставления по геопозиции, что позволило объединить в сервисе предложения от разных провайдеров и найти самый дешевый из них.
-    Автоматизировал работу бухгалтерии, добавив генерацию отчетности в формате PDF.
+    Allowed customers to choose the cheapest offers of hotels from a couple of providers by implementing a clustering algorithm on location, automated the work of accounting by adding a PDF generator of accounting documents.
   website: https://smartway.today
 
 education:
-- degree: Бакалавр
-  timeperiod: Сентябрь 2013 - Июнь 2017
-  description: Компьютерная инженерия, ПГУ, Пенза, Россия.
+- degree: Bachelor
+  timeperiod: September 2013 - June 2017
+  description: Software Engineering, PSU, Penza, Russia.
 
 # skill level goes 0 to 100
 skills:
@@ -58,21 +64,19 @@ skills:
   level: 100
 - name:  Ruby on Rails
   level: 100
-- name:  Elixir
-  level: 100
-- name:  Phoenix
-  level: 100
 - name: PostgreSQL
   level: 100
 - name: MongoDB
   level: 100
-- name: CarrierWave
+- name: RabbitMQ
+  level: 100
+- name: Kafka
   level: 100
 - name: dry-rb
   level: 100
 - name: RSpec
   level: 95
-- name: DelayedJob
+- name: Sidekiq
   level: 95
 - name: git
   level: 100
@@ -82,6 +86,12 @@ skills:
   level: 93
 - name: JQuery
   level: 95
+- name:  Golang
+  level: 100
+- name:  Elixir
+  level: 100
+- name:  Phoenix
+  level: 100
 - name: Docker
   level: 99
 
@@ -98,11 +108,11 @@ skills:
 
 contact:
   email: soten58@yandex.ru
-  city: Пенза
-  street: Пенза
-  phone: +79272888377
+  city: Moscow
+  street: Moscow
+  phone: +79958803183
   website: https://www.linkedin.com/in/ilya-osotov/
   github: IlyaOsotov
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: ru
+lang: en
 `
