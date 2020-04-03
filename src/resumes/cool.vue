@@ -115,7 +115,7 @@
               <div
                 v-if="Array.isArray(experience.description)"
                 class="section-content__text--light">
-                <span style="display: block;"
+                <span class="desc-item"
                   v-for="(el, index) in experience.description"
                   :key="index">{{ el }}</span>
               </div>
@@ -371,6 +371,10 @@ a {
 
 .grid-item {
   padding-right: 5px;
+}
+
+.desc-item {
+  display: block;
 }
 
 .squarred-grid-item {
